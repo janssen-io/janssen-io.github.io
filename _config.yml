@@ -1,0 +1,49 @@
+title: Stan's Blog
+# email: #youremail@domain.com
+description: > # this means to ignore newlines until "baseurl"
+  A software engineering blog about functional programming, object oriented programming and more!
+
+baseurl: # the subpath of the site
+url: https://janssen.io
+
+permalink: /:year-:month/:title
+timezone:
+
+favicon: /assets/img/favicon.ico
+
+user:
+  name: Stan
+  pic: /assets/img/cat.jpg
+  picAlt: "Stan"
+
+exclude:
+  - README.md
+  - LICENSE
+  - github
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: true   
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown 
+kramdown:  
+  auto_ids: true
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  hard_wrap: false
+  footnote_nr: 1
+  show_warnings: false
+  enable_coderay: false
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
