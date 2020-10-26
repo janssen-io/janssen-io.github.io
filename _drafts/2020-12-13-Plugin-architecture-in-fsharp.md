@@ -27,5 +27,8 @@ First things first. This post is part of the [F# Advent Calendar 2020](https://s
 - I like that the compiler helps out
 - Looks a bit out of place (no interface elsewhere in the app)
 
+## Import side notes
+- Make sure to add --self-contained=false when publishing a single file application!
+
 ## Comments
 _Wish to comment? You can add a comment to this post by sending me a [pull request](https://github.com/janssen-io/janssen-io.github.io#readme)._
