@@ -4,7 +4,6 @@ title: "Plugin Architecture in F#"
 excerpt_separator: <!--more-->
 ---
 
-# Plugin Architecture in F#
 Last month I [wrote about plugins in C#]({% post_url 2020-10-25-Plugin-architecture-in-csharp %}). Using a predefined interface, 3rd party developer could develop plugins. The plugin is then loaded from a DLL in a designated directory and the implementation of the interface is instantiated.
 
 In F# we could use this same approach, as F# also allows us to work with objects and C#-style interfaces. But what other possibilities does F# offer and what their pros and cons?
