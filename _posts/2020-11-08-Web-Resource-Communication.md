@@ -24,7 +24,7 @@ First, in our Upload to Blob resource, we subscribe to the message `disableUploa
 
 This interaction then looks like this:
 
-![pubsub sequence diagram](/assets/2020-11-01/pubsub.png)
+![pubsub sequence diagram](/assets/2020-11-08/pubsub.png)
 
 ## Firing blanks
 Unfortunately, when we implemented this the first time it didn't work. The form fired the message but there was no receiver yet!
@@ -32,7 +32,7 @@ Back to the drawing board and luckily the solution was easy, because we could re
 
 Wiring this all up, it looks like this:
 
-![improved pubsub sequence diagram](/assets/2020-11-01/improved-pubsub.png)
+![improved pubsub sequence diagram](/assets/2020-11-08/improved-pubsub.png)
 
 ## Alternative solutions
 Alternatively, we could just register some functions on the top window that each resource could call. But this could lead to clashes: what if two resources want to define a function with the same name? Also, what do we do if a funtion is not defined yet, but we expected it to be? 
