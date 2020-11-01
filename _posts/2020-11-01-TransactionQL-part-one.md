@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "TransactionQL: Part One"
+title: "TransactionQL: Introduction"
 excerpt_separator: <!--more-->
 category: Software Architecture
 tags:
-    - C#
-    - Plugins
-    - Architecture
+    - F#
+    - Personal Project
+    - Series Introduction
 ---
 
 Roughly five or six years ago I started tracking the various categories I spent money on in Microsoft Excel.
@@ -34,7 +34,10 @@ For this project, I had a few requirements:
 
 To meet these criteria, the following design emerged:
 
-<!-- TODO: add module overview -->
+![high level design](/assets/2020-11-01/tql-design.svg)
+
+The program will start by parsing a csv, this module will be specific for each bank and interchangeable by making use of a plugin architecture.
+Alongside the csv, the filters will be parsed ("tql" format). The parsed filters can then be used to filter the data from the csv and fed to an output module. This module will then output the filtered transactions as ledger postings.
 
 In the next posts, we will dive into the implementation of the modules.
 
