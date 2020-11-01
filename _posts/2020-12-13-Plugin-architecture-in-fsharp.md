@@ -2,6 +2,12 @@
 layout: post
 title: "Plugin Architecture in F#"
 excerpt_separator: <!--more-->
+category: Software Architecture
+tags:
+    - F#
+    - TransactionQL
+    - Personal Project
+    - F# Advent Calendar
 ---
 
 Last month I [wrote about plugins in C#]({% post_url 2020-10-25-Plugin-architecture-in-csharp %}). Using a predefined interface, 3rd party developer could develop plugins. The plugin is then loaded from a DLL in a designated directory and the implementation of the interface is instantiated.
