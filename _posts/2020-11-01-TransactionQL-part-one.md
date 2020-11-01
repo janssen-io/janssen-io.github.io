@@ -2,11 +2,11 @@
 layout: post
 title: "TransactionQL: Introduction"
 excerpt_separator: <!--more-->
-category: Software Architecture
+category: Series Introduction
 tags:
     - F#
     - Personal Project
-    - Series Introduction
+    - TransactionQL
 ---
 
 Roughly five or six years ago I started tracking the various categories I spent money on in Microsoft Excel.
