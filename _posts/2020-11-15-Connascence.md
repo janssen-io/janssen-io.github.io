@@ -2,7 +2,7 @@
 title: "Connascence"
 layout: post
 excerpt_separator: <!--more-->
-category: "Series Introduction"
+category: Series Introduction
 tags:
     - Connascence
     - Roslyn

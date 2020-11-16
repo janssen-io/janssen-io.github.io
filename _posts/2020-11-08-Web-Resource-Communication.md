@@ -2,7 +2,7 @@
 title: "Dynamics 365: Web Resource communication"
 layout: post
 excerpt_separator: <!--more-->
-category: Software Architecture
+category: Software Design
 tags:
     - Javascript
     - Dynamics 365
