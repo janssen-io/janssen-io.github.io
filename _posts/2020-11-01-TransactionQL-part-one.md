@@ -41,6 +41,8 @@ Alongside the csv, the filters will be parsed ("tql" format). The parsed filters
 
 In the next posts, we will dive into the implementation of the modules.
 
+Read Part Two [here]({% post_url 2020-11-22-TransactionQL-part-two %})
+
 
 ## Comments
 _Wish to comment? You can add a comment to this post by sending me a [pull request](https://github.com/janssen-io/janssen-io.github.io#readme)._

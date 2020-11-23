@@ -9,7 +9,7 @@ tags:
     - TransactionQL
 ---
 
-In the [first post]({% post_url 2020-11-08-TransactionQL-part-one %})
+In the [first post]({% post_url 2020-11-01-TransactionQL-part-one %})
 of this series, I gave quick overview of the requirements and
 architecture of TransactionQL. In this post, I'll talk about the
 csv and tql parsers.
