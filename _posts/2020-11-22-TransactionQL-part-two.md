@@ -103,9 +103,10 @@ can be added up and columns defined by the parser can be used.
 As the structure of this file is more complex than a simple csv
 file and it is not a default format, I decided to write my own
 parser using [FParsec](http://www.quanttec.com/fparsec/).
-I believe there are plenty of other blog posts and tutorials for
-FParsec out there, so I won't dive into it here. In case you're
-interested, you can find the final implementation on [GitHub](https://github.com/janssen-io/TransactionQL-fsharp/blob/master/TransactionQL.Parser/QLParser.fs)
+I believe there are plenty of other [blog posts](https://rosalogia.me/posts/functional-parsing/)
+and tutorials for FParsec out there, so I won't dive into it
+here. In case you're interested, you can find the final
+implementation on [GitHub](https://github.com/janssen-io/TransactionQL-fsharp/blob/master/TransactionQL.Parser/QLParser.fs).
 
 ## Filtering transactions
 The parsed transactions are then fed into the [interpreter](https://github.com/janssen-io/TransactionQL-fsharp/blob/master/TransactionQL.Parser/QLInterpreter.fs)
