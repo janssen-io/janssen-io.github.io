@@ -2,7 +2,7 @@
 layout: post
 title: "Plugin Architecture in C#"
 excerpt_separator: <!--more-->
-category: Software Architecture
+category: Software Design
 tags:
     - C#
     - Plugins
